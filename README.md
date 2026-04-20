@@ -31,14 +31,14 @@ A key feature is the ability to switch between classic `DriverManager`-based con
 
 - Java 11 or higher.
 - Maven.
-- [PostgreSQL](https://www.postgresql.org/) running on `localhost:5432`, database `test`, user `postgres`, password `qweasd12`.
+- [PostgreSQL](https://www.postgresql.org/) running on `localhost:5432`, database `test`, user `postgres`, password `password`.
     - Create the database and user as needed.
 
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone git@github.com:MohamedNoaman705/Java_HikariCP_VS_ManualJDBC.git
+cd Java_HikariCP_VS_ManualJDBC
 ```
 
 ### 2. Build
@@ -98,10 +98,6 @@ If you want fast, scalable, and reliable Java database access, always use a conn
 - Efficient resource use under higher loads.
 - Reduces risk of exhausting database connection limits.
 - Easy integration—just implement `ConnectionProvider`.
-
-## License
-
-MIT (or add your preferred license here)
 
 ---
 
